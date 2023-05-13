@@ -13,9 +13,8 @@ const lookup = {
 function rot13(encodedStr){
    let decodedArr = []; // Your Result goes here
   // Only change code below this line
-	let enco="";
-	for(let i=0;i<str.length;i++){
-		enco+=String.fromCharCode(text.charCodeAt(i)+13);
+	for(let i=0;i<encodedStr.length;i++){
+		decodedArr.push(String.fromCharCode(encodedStr.charCodeAt(i)+13));
 	}
 
   return enco;//return decodedArr
